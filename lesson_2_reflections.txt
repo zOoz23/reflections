@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+	
+	an .git map is created, inside are all assets needed to track commits.
+
+ 
