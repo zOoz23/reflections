@@ -2,4 +2,28 @@ What happens when you initialize a repository? Why do you need to do it?
 	
 	an .git map is created, inside are all assets needed to track commits.
 
- 
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	staging area contains only the files witch will be tracked in git 
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	Using git diff --stage
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	When making significant changes with mayor influences
+
+How do the diagrams help you visualize the branch structure?
+
+	It makes so much easier to understand how the commits are related to each other, visualizes the reachability of these commits
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	- Result is one master branch with the commits of both previous branches
+	- Representing branches in a diagram makes it much easier understanding relationships of the commits
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	You can run into conflicts where a specialist who put the code together can better understand how to resolve this conflict
+
