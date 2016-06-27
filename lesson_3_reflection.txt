@@ -1,0 +1,12 @@
+When would you want to use a remote repository rather than keeping all your work local?
+  	So you can access the repository on a different computer/device
+  	So other people can contribute to your repository
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+	You only want to push or pull changes that are completed and not in a "working progress" state
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+	Frok - when you want to clone a repository on gitHub creating an automatic reference to de parent
+	Clone - when you want to clone a repositoy on your harddrive without a reference to parent
+	Branche - when you want to create a new feature, without messing up the master branche
+
